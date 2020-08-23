@@ -1,0 +1,199 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for Maya 2018 v20200720.2"
+  },
+  "scene": 0,
+  "scenes": [{ "nodes": [0, 1] }],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [1.513958e-9, -5.510186e-41, 1.952009e-42],
+      "rotation": [-0.0116114151, 0.7219819, -0.691675067, 0.0138901705],
+      "scale": [2.54, 2.54, 2.54],
+      "name": "low",
+      "extras": {
+        "UDP3DSMAX": "babylonjs_GUID = 312bdf84-97cd-42ca-874a-8243fd42bf6d&cr;&lf;",
+        "MaxHandle": 5
+      }
+    },
+    {
+      "mesh": 1,
+      "translation": [0.0, -0.0298466, 0.001053987],
+      "scale": [2.79256535, 2.793, 2.79256535],
+      "name": "cokol"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TANGENT": 2,
+            "NORMAL": 3,
+            "TEXCOORD_0": 4
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ],
+      "name": "low"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "TANGENT": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9
+          },
+          "indices": 5,
+          "material": 1
+        }
+      ],
+      "name": "cokol"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 178404,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 38523,
+      "max": [0.009783304, 0.006385052, 0.011859498],
+      "min": [-0.009776271, -0.00633745873, -0.01191576],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 38523,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 462276,
+      "componentType": 5126,
+      "count": 38523,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 38523,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 356808,
+      "componentType": 5123,
+      "count": 600,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 924552,
+      "componentType": 5126,
+      "count": 210,
+      "max": [0.0114999991, 0.0008999997, 0.0114773093],
+      "min": [-0.0115000065, -0.000900000334, -0.0114773167],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 616368,
+      "componentType": 5126,
+      "count": 210,
+      "type": "VEC4",
+      "name": "accessorTangents"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 927072,
+      "componentType": 5126,
+      "count": 210,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 308184,
+      "componentType": 5126,
+      "count": 210,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    }
+  ],
+  "bufferViews": [
+    { "buffer": 0, "byteLength": 358008, "name": "bufferViewScalar" },
+    {
+      "buffer": 0,
+      "byteOffset": 358008,
+      "byteLength": 929592,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1287600,
+      "byteLength": 619728,
+      "byteStride": 16,
+      "name": "bufferViewFloatVec4"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1907328,
+      "byteLength": 309864,
+      "byteStride": 8,
+      "name": "bufferViewFloatVec2"
+    }
+  ],
+  "buffers": [{ "uri": "./boguslawski-low.bin", "byteLength": 2217192 }],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.8, 0.8, 0.8, 1.0],
+        "baseColorTexture": { "index": 1 },
+        "metallicRoughnessTexture": { "index": 2 }
+      },
+      "normalTexture": { "index": 0 },
+      "name": "figura"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.0, 0.0, 0.0, 1.0],
+        "baseColorTexture": { "index": 3 },
+        "metallicFactor": 0.2969697,
+        "roughnessFactor": 0.175757572
+      },
+      "name": "cokol_fin"
+    }
+  ],
+  "textures": [
+    { "sampler": 0, "source": 0, "name": "normal.jpg" },
+    { "sampler": 0, "source": 1, "name": "color2.jpg" },
+    { "sampler": 0, "source": 2, "name": "file290.jpg" },
+    { "sampler": 0, "source": 3, "name": "ceokol-color.jpg" }
+  ],
+  "images": [
+    { "uri": "./normal.jpg" },
+    { "uri": "./color2.jpg" },
+    { "uri": "./file290.jpg" },
+    { "uri": "./ceokol-color.jpg" }
+  ],
+  "samplers": [{ "magFilter": 9729, "minFilter": 9987 }]
+}
